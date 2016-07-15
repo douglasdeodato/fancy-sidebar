@@ -1,0 +1,22 @@
+//  *********************************************************************
+//  =fancy sidebar
+//
+//  Author : @douglasdeodato
+//  Project: fancy sidebar
+//  Date   : 15/07/2016
+//  Version: package.json
+//  *********************************************************************/
+
+
+.sidebar-shrink {
+  height: 100%;
+  overflow-y: auto;
+  background: palette(black);
+}
+
+.magic-container {
+  &.closed .sidebar-left-nav {
+    @include transition(width 0.3s);
+    width: 0;
+  }
+}

@@ -1,0 +1,20 @@
+//  *********************************************************************
+//  =functions
+//
+//  Author : @douglasdeodato
+//  Project: fancy sidebar
+//  Date   : 15/07/2016
+//  Version: package.json
+//  *********************************************************************/
+
+
+
+// Import if Google Fonts URL is defined
+@if variable-exists(font-url--google) {
+  @import url($font-url--google);
+}
+
+// Call the color palette modifiers in color values
+@function palette($palette, $shade: 'base') {
+  @return map-get(map-get($color-palettes, $palette), $shade);
+}

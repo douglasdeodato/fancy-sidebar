@@ -1,0 +1,14 @@
+
+//  *********************************************************************
+//  =transition
+//
+//  Author : @douglasdeodato
+//  Project: fancy sidebar
+//  Date   : 15/07/2016
+//  Version: package.json
+//  *********************************************************************/
+
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+  transition: $transition;
+}

@@ -1,0 +1,38 @@
+// ==========================================================================
+// Variables
+// ==========================================================================
+
+// Font Stacks
+
+$font-url--google: 'http://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700,900';
+$font-family--primary: 'Open Sans', Helvetica, Arial, sans-serif;
+$font-family--secondary: Helvetica, Arial, sans-serif;
+
+// Descriptive Base Colors
+
+$white: #ffffff;
+$black: #000;
+$grey: #999999;
+
+// Color Palette Modifiers
+
+$color-palettes: (
+	grey: (
+		xx-light : lighten($grey, 43%),
+		x-light  : rgba(240,240,240, 1),
+	    light    : rgba(221, 221, 221, 1),
+	    base     : $grey,
+	 	dark     : rgba(133, 133, 133, 0.24),
+	 	x-dark   : darken($grey, 16%)
+	),
+	black: (
+		x-light  : lighten($black, 6%),
+		light    : lighten($black, 10%),
+		base     : $black,
+		dark     : darken($black, 10%)
+	),
+	white: (
+		xx-light : rgba(255, 255, 255, 0.2),
+		base: $white
+	),
+);

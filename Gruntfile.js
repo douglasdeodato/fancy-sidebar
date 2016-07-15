@@ -5,10 +5,11 @@
     			//src ===============================
     			var src;
 				config.src = src = {
-					 sassMain     	 : 'scss/app.scss',
-					 distFolder		 : 'examples/css/app.dist.css',
-					 devFolder		 : 'examples/css/app.dev.css',
+					 sassMain     	 : 'scss/main.scss',
+					 distFolder		 : 'public/css/app.dist.css',
+					 devFolder		 : 'public/css/app.dev.css',
 					 sassFolder		 : 'scss/**/*.scss',
+					 libFolder		 : 'public/js/**/*.js'
 				
 				};
 
