@@ -1,0 +1,30 @@
+{
+  "name": "fancy-sidebar",
+  "version": "1.0.0",
+  "description": "fancy sidebar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasdeodato/fancy-sidebar.git"
+  },
+  "keywords": [
+    "facy",
+    "sidebar"
+  ],
+  "author": "douglas deodato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglasdeodato/fancy-sidebar/issues"
+  },
+  "homepage": "https://github.com/douglasdeodato/fancy-sidebar#readme",
+  "devDependencies": {
+    "grunt": "*",
+    "load-grunt-tasks": "^3.5.0",
+    "time-grunt": "^1.3.0",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-watch": "*"
+  }
+}
