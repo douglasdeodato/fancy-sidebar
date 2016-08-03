@@ -1,1 +1,1 @@
-.sidebar-shrink{height:100%;overflow-y:auto;background:#000}.magic-container.closed .sidebar-left-nav{-webkit-transition:width 0.3s;transition:width 0.3s;width:0}
+.sidebar-shrink{height:100%;overflow-y:auto;background:#000}.magic-container.closed .sidebar-left-nav{-webkit-transition:width 0.3s;transition:width 0.3s;width:0;padding:0}.magic-container.closed .col-md-10{-webkit-transition:width 0.3s;transition:width 0.3s;width:100%}

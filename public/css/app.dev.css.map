@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": ";AAUA,eAAgB;EACd,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;EAChB,UAAU,ECAJ,IAAI;;;;ADIV,yCAA2B;EEN3B,kBAAkB,EFOI,UAAU;EENhC,UAAU,EFMY,UAAU;EAC9B,KAAK,EAAE,CAAC",
+"mappings": ";AAUA,eAAgB;EACd,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;EAChB,UAAU,ECAJ,IAAI;;;;ADIV,yCAA2B;EEN3B,kBAAkB,EFOI,UAAU;EENhC,UAAU,EFMY,UAAU;EAC9B,KAAK,EAAE,CAAC;EACR,OAAO,EAAE,CAAC;;;AAEZ,kCAAoB;EEXpB,kBAAkB,EFYI,UAAU;EEXhC,UAAU,EFWY,UAAU;EAC9B,KAAK,EAAE,IAAI",
 "sources": ["../../scss/_fancy-sidebar.scss","../../scss/_config.scss","../../scss/_transition.scss"],
 "names": [],
 "file": "app.dev.css"

@@ -10,6 +10,13 @@
   -webkit-transition: width 0.3s;
   transition: width 0.3s;
   width: 0;
+  padding: 0;
+}
+/* line 23, ../../scss/_fancy-sidebar.scss */
+.magic-container.closed .col-md-10 {
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+  width: 100%;
 }
 
 /*# sourceMappingURL=app.dev.css.map */
