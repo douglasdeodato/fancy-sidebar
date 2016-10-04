@@ -1,22 +1,50 @@
-/* line 11, ../../scss/_fancy-sidebar.scss */
+/* line 10, ../../scss/_fancy-sidebar.scss */
+.sidebar-left-nav {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s ease 0s;
+  transform: translate3d(-100%, 0px, 0px);
+  visibility: hidden;
+  width: 150px;
+  z-index: 100;
+}
+
+/* line 22, ../../scss/_fancy-sidebar.scss */
+.magic-container {
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+/* line 26, ../../scss/_fancy-sidebar.scss */
+.magic-container.closed .sidebar-left-nav {
+  transition: transform 0.5s ease 0s;
+  transform: translate3d(0, 0px, 0px);
+  visibility: visible;
+}
+/* line 31, ../../scss/_fancy-sidebar.scss */
+.magic-container.closed .main-content {
+  transform: translate3d(150px, 0px, 0px);
+  width: 95%;
+}
+
+/* line 37, ../../scss/_fancy-sidebar.scss */
 .sidebar-shrink {
   height: 100%;
   overflow-y: auto;
   background: #000;
 }
 
-/* line 18, ../../scss/_fancy-sidebar.scss */
-.magic-container.closed .sidebar-left-nav {
-  -webkit-transition: width 0.3s;
-  transition: width 0.3s;
-  width: 0;
-  padding: 0;
-}
-/* line 23, ../../scss/_fancy-sidebar.scss */
-.magic-container.closed .col-md-10 {
-  -webkit-transition: width 0.3s;
-  transition: width 0.3s;
-  width: 100%;
+/* line 43, ../../scss/_fancy-sidebar.scss */
+.main-content {
+  background-color: #ffffff;
+  height: 100%;
+  left: 0;
+  perspective: 1000px;
+  position: relative;
+  transition: transform 0.5s ease 0s;
+  z-index: 99;
 }
 
 /*# sourceMappingURL=app.dev.css.map */
