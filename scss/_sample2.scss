@@ -2,6 +2,7 @@
   overflow-x: hidden;
   position: relative;
   left: 0;
+  margin-top: 50px;
 }
 
 .menu-open {
@@ -22,7 +23,7 @@
   border-right: 1px solid #000;
   color: #fff;
   position: fixed;
-  top: 0;
+  top: 50px;
   left: -231px;
   width: 210px;
   height: 100%;
