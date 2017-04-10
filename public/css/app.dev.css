@@ -1,6 +1,7 @@
-/* line 10, ../../scss/_config.scss */
+/* line 9, ../../scss/_config.scss */
 body {
   overflow-x: hidden;
+  padding-top: 60px;
 }
 
 /* line 10, ../../scss/_fancy-sidebar.scss */
@@ -52,31 +53,34 @@ body {
   z-index: 99;
 }
 
-/* line 1, ../../scss/_sample2.scss */
+/* line 9, ../../scss/_sample2.scss */
 .menu {
   overflow-x: hidden;
   position: relative;
   left: 0;
-  margin-top: 50px;
 }
 
-/* line 8, ../../scss/_sample2.scss */
+/* line 15, ../../scss/_sample2.scss */
 .menu-open {
   left: 15%;
 }
-
-/* line 12, ../../scss/_sample2.scss */
+/* line 17, ../../scss/_sample2.scss */
 .menu-open .sidebar {
   left: 0;
 }
+/* line 20, ../../scss/_sample2.scss */
+.menu-open .content {
+  width: 84%;
+  border: 1px solid grey;
+}
 
-/* line 16, ../../scss/_sample2.scss */
+/* line 26, ../../scss/_sample2.scss */
 .sidebar,
 .menu {
   transition: left 200ms ease;
 }
 
-/* line 21, ../../scss/_sample2.scss */
+/* line 31, ../../scss/_sample2.scss */
 .sidebar {
   background-color: #333;
   border-right: 1px solid #000;
@@ -87,16 +91,6 @@ body {
   width: 15%;
   height: 100%;
   padding: 10px;
-}
-
-/* line 33, ../../scss/_sample2.scss */
-.size-42 {
-  font-size: 42px;
-}
-
-/* line 37, ../../scss/_sample2.scss */
-.menu-open .content {
-  width: 83%;
 }
 
 /* line 1, ../../scss/_border.scss */
