@@ -5,11 +5,11 @@ CDN from version 0.1 05/10/2016
 
 css:
 
-https://cdn.jsdelivr.net/fancy-sidebar/0.1/public/css/app.dist.css
+https://cdn.jsdelivr.net/gh/douglasdeodato/fancy-sidebar@0.1/public/css/app.dist.css
 
 js:
 
-https://cdn.jsdelivr.net/fancy-sidebar/0.1/public/js/fancy-sidebar.js
+https://cdn.jsdelivr.net/gh/douglasdeodato/fancy-sidebar@0.1/public/js/fancy-sidebar.js
 
 Light and fancy sidebar
 
